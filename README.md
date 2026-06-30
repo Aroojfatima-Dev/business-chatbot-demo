@@ -1,3 +1,9 @@
+[![GitHub stars](https://img.shields.io/github/stars/Aroojfatima-Dev/business-chatbot-demo?style=social)](https://github.com/Aroojfatima-Dev/business-chatbot-demo/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)]()
+
 #  Business Chatbot Demo (HTML/CSS/JavaScript)
 
 A standalone, interactive AI chatbot UI built for client demos and presentations — no backend required. Demonstrates a realistic chatbot conversation flow with typing animation and quick-reply buttons.
