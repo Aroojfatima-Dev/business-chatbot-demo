@@ -184,9 +184,9 @@
   <div class="chat-messages" id="messages">
 
     <div class="msg bot">
-      <div class="msg-avatar">🤖</div>
+      <div class="msg-avatar"></div>
       <div class="msg-col">
-        <div class="msg-bubble">👋 Hi! I'm Aria, your AI business assistant. How can I help you today?</div>
+        <div class="msg-bubble"> Hi! I'm Aria, your AI business assistant. How can I help you today?</div>
         <div class="msg-time">10:42 AM</div>
       </div>
     </div>
@@ -200,9 +200,9 @@
     </div>
 
     <div class="msg bot">
-      <div class="msg-avatar">🤖</div>
+      <div class="msg-avatar"></div>
       <div class="msg-col">
-        <div class="msg-bubble">We're open Monday to Saturday, 9 AM – 9 PM, and Sunday 11 AM – 6 PM. 🕘<br><br>Would you like to place an order or need something else?</div>
+        <div class="msg-bubble">We're open Monday to Saturday, 9 AM – 9 PM, and Sunday 11 AM – 6 PM. <br><br>Would you like to place an order or need something else?</div>
         <div class="msg-time">10:43 AM</div>
       </div>
     </div>
@@ -216,14 +216,14 @@
     </div>
 
     <div class="msg bot" id="typing-row" style="display:none;">
-      <div class="msg-avatar">🤖</div>
+      <div class="msg-avatar"></div>
       <div class="typing"><span></span><span></span><span></span></div>
     </div>
 
     <div class="msg bot" id="last-bot-msg" style="display:none;">
-      <div class="msg-avatar">🤖</div>
+      <div class="msg-avatar"></div>
       <div class="msg-col">
-        <div class="msg-bubble">Yes! We deliver within 10 km radius. 🚚 Orders above Rs. 500 get free delivery.<br><br>Want to place an order right now?</div>
+        <div class="msg-bubble">Yes! We deliver within 10 km radius.  Orders above Rs. 500 get free delivery.<br><br>Want to place an order right now?</div>
         <div class="msg-time">10:44 AM</div>
       </div>
     </div>
@@ -232,9 +232,9 @@
 
   <!-- Quick replies -->
   <div class="quick-replies" id="quick-replies">
-    <button class="quick-btn" onclick="sendQuick('Place an order')">🛒 Place an order</button>
-    <button class="quick-btn" onclick="sendQuick('Talk to a human')">👤 Talk to a human</button>
-    <button class="quick-btn" onclick="sendQuick('View menu')">📋 View menu</button>
+    <button class="quick-btn" onclick="sendQuick('Place an order')"> Place an order</button>
+    <button class="quick-btn" onclick="sendQuick('Talk to a human')"> Talk to a human</button>
+    <button class="quick-btn" onclick="sendQuick('View menu')"> View menu</button>
   </div>
 
   <!-- Input -->
@@ -249,10 +249,10 @@
 
 <script>
   const responses = {
-    "place an order": "Great! Please share your name, address and what you'd like to order. We'll confirm within 5 minutes! 🎉",
-    "talk to a human": "Sure! Our team is available Mon–Sat 9 AM–9 PM. You can also call us at 0300-1234567. 📞",
-    "view menu": "Here's our menu link: 📋 menu.example.com — Feel free to browse and ask me anything!",
-    "default": "Thanks for your message! Let me connect you with the right information. Can you tell me more? 😊"
+    "place an order": "Great! Please share your name, address and what you'd like to order. We'll confirm within 5 minutes! ",
+    "talk to a human": "Sure! Our team is available Mon–Sat 9 AM–9 PM. You can also call us at 0300-1234567. ",
+    "view menu": "Here's our menu link:  menu.example.com — Feel free to browse and ask me anything!",
+    "default": "Thanks for your message! Let me connect you with the right information. Can you tell me more? "
   };
 
   const times = ["10:45 AM", "10:46 AM", "10:47 AM"];
@@ -274,7 +274,7 @@
       const msgDiv = document.createElement('div');
       msgDiv.className = 'msg bot';
       msgDiv.innerHTML = `
-        <div class="msg-avatar">🤖</div>
+        <div class="msg-avatar"></div>
         <div class="msg-col">
           <div class="msg-bubble">${text}</div>
           <div class="msg-time">${times[msgCount % 3]}</div>
